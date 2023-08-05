@@ -3,8 +3,11 @@ const resumeData = {
         "Name": "Chaitanya Varu",
         "Location": "India",
         "Email": "chaitanyavaru@gmail.com",
-        "LinkedIn": "https://www.linkedin.com/in/chaitanya-varu/",
-        "Github": "https://github.com/hokageCV"
+        "LinkedIn": "https://www.linkedin.com/in/chaitanya-varu",
+        "Github": "https://github.com/hokageCV",
+        "Website": "https://hokagecv.github.io/portfolio",
+        "Blog": "https://chaitanya-varu-blog.netlify.app",
+        "Cloud Resume": "https://www.chaitanyavaru.tech"
     },
     "Education": [
         {
@@ -66,7 +69,7 @@ const resumeData = {
         },
         {
             "Project Name": "Vidvat",
-            "Link": "https://vidvat.netlify.app/",
+            "Link": "https://vidvat.netlify.app",
             "Descriptions": [
                 "A quiz application for teachers and self-learners",
                 "Facilitated quiz taking with instant feedback for students.",
