@@ -1,7 +1,12 @@
-
+import resumeData from './resume';
 
 export default {
 	async fetch(request, env, ctx) {
-		return new Response("Hello World!");
+		const formatedResume = JSON.stringify(resumeData, null, 4)
+		return new Response(formatedResume, {
+			headers: {
+				'Content-Type': 'application/json',
+			}
+		})
 	},
 };
