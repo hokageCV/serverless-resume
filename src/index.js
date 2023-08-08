@@ -12,6 +12,7 @@ export default {
 		return new Response(formatedResume, {
 			headers: {
 				'Content-Type': 'application/json',
+				'Cache-Control': 'max-age=7200, must-revalidate', // Cache for 2 hours,
 				...corsHeaders,
 			}
 		})
